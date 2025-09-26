@@ -1,0 +1,40 @@
+@use 'variables';
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+    line-height: 1.5;
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    color: variables.$dark-color;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    
+}
+
+

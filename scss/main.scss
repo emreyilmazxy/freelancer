@@ -1,0 +1,14 @@
+@use 'variables';
+@use 'utilities';
+@use 'base';
+@use 'header';
+@use 'home';
+@use 'about';
+@use 'footer';
+@use 'projects';
+@use 'contact';
+@use 'mobile'; 
+
+h1{
+    color: rgb(161, 137, 137); 
+}

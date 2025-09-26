@@ -1,0 +1,98 @@
+@use 'variables';
+
+// home section a
+#home {
+    &__a {
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 3rem;
+            margin-bottom: 1.5rem;
+
+            i {
+                color: variables.$primary-color;
+                margin-bottom: 1rem;
+
+            }
+        }
+    }
+
+    // home section b
+    &__b {
+        .profile {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+
+
+            li {
+                &.title {
+                    font-size: 1.5rem;
+                }
+
+                &.number {
+                    font-size: 2rem;
+                    font-weight: bold;
+                }
+            }
+
+            div {
+                padding: 3rem 0;
+
+                &:nth-child(odd) {
+                    background-color: variables.$light-color;
+                }
+
+                &:nth-child(even) {
+                    background-color: variables.$medium-color;
+
+                }
+            }
+        }
+    }
+
+    // home section c
+
+    &__c {
+        .process {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+            text-align: center;
+
+            &__step {
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-size: 25px;
+                background-color: variables.$primary-color;
+                transform: all 1sn;
+                padding: 1rem;
+                border-radius: 50%;
+                line-height: 15px;
+            }
+
+            &__icon {
+                position: relative;
+                width: 125px;
+                height: 125px;
+                border-radius: 50%;
+                color: #fff;
+                text-align: center;
+                background-color: variables.$dark-color;
+                padding: 2rem;
+
+                &:hover{
+                    background-color: variables.$primary-color;
+
+                    .process__step{
+                        background-color: variables.$dark-color;
+                    }
+                }
+
+            }
+
+            
+        }
+    }
+
+}
