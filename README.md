@@ -2,7 +2,7 @@
 
 Modern ve duyarlı (responsive) bir freelancer portföy web sitesi. SCSS, jQuery ve modern web teknolojileri kullanılarak geliştirilmiştir.
 
-![Proje Önizleme](public/img/main-background-promote)
+![Proje Önizleme](./public/img/main-background-promote.png)
 
 ## 🚀 Özellikler
 
