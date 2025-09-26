@@ -133,4 +133,4 @@ Bu proje MIT lisansı altında lisanslanmıştır.
 
 ## 👨‍💻 Yazar
 
-[Adınız] - [@GithubKullanıcıAdı](https://github.com/your-username)
+[emre yılmaz] - [@emreyilmazxy](https://github.com/emreyilmazxy)
